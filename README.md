@@ -95,11 +95,19 @@ Results are returned as an array of JSON objects. Example:
 
 ## 🎞️ Accessing Generated Videos
 
-After the run completes, the actor automatically saves an `album.html` file in its Key-Value store. To access it:
+The actor saves an "album.html" file to the KeyValue store for easy browsing and downloading of generated videos. You can access it by:
 
-1. Open **Run > Storage > Key-Value Store** in the Apify app.
-2. Locate and click `album.html`.
-3. Browse, filter by prompt, and download individual or batch videos as ZIP.
+- Clicking any "Album URL" field in the results table
+- Going to Run > Storage > KeyValueStore and finding the "album.html" file
+
+The album interface provides several features:
+
+- Filter videos by prompt text or other metadata
+- Select multiple videos for batch operations
+- Open videos in new tabs for detailed viewing
+- Download selected videos as a ZIP file
+
+Here's an example album showcasing some generated videos so you can see how your results will be displayed: [Browse Example Gallery](https://igolaizola.github.io/midjourney-video-automation/)
 
 ## ⚠️ Usage Guidelines & Best Practices
 
